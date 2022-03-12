@@ -1,0 +1,55 @@
+.font1-xxl{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+.font1-xl{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+}
+.font1-l{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+.font1-n{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+.font1-s{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+.font1-xs{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.125;
+}
+.font2-xxl{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+}
+.font2-xl{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+}
+.font2-l{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+.font2-n{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+.font2-s{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.font2-xs{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+.font-b{
+    font-weight: 700;
+}
+.font-n{
+    font-weight: 400;
+}
