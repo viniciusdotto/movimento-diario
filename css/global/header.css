@@ -46,6 +46,7 @@ nav ul li:hover{
         background-color: var(--background-color2);
         border-radius: 10px;
         padding: 10px 20px;
+        font-size: 1.25rem;
     }
     nav ul li:hover{
         border: var(--background-color1) 2px solid;
