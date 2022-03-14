@@ -3,9 +3,6 @@
 }
 .modalidades-container{
     max-width: 1600px;
-    box-sizing: border-box;
-    padding: 40px;
-    margin: 0 auto;
     color: var(--text-color3);
 }
 .modalidades-container h2{

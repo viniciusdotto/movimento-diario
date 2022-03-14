@@ -1,3 +1,9 @@
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
 .botao{
     background-color: var(--detail-color1);
     padding: 15px 30px;
