@@ -10,8 +10,6 @@
 }
 .modalidades-container h2{
     max-width: 1200px;
-    box-sizing: border-box;
-    padding: 40px;
     margin: 0 auto;
 }
 
@@ -23,18 +21,43 @@
 .modalidades-container h2 span{
     color: var(--detail-color1);
 }
-.modalidades-list-item div{
+.modalidades-list-item{
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 10px;
     margin-top: 20px;
 }
-.modalidades-list-item span{
+.modalidades-list-item a{
+    display: block;
+}
+.modalidades-list-item img{
+    min-width: 200px;
+}
+.modalidades-list-item h3{
+    color: var(--text-color3);
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.modalidades-list-item h3::before{
+    content: "";
     display: inline-block;
+    align-self:center;
     width: 10px;
     height: 7px;
     background-color: var(--detail-color1);
+    margin-right: 10px;
+}
+.modalidades-list-item a:hover h3::before{
+    width: 20px;
+    transition: 0.5s;
+}
+
+@media (max-width: 800px){
+    .modalidades-list{
+        overflow-x: scroll;
+    }
 }
 
 

@@ -45,8 +45,7 @@ nav ul li:hover{
     nav ul li{
         background-color: var(--background-color2);
         border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 1.25rem;
+        padding: 10px 20px;     
     }
     nav ul li:hover{
         border: var(--background-color1) 2px solid;
@@ -54,9 +53,6 @@ nav ul li:hover{
     }
 }
 @media (max-width:600px){
-    nav ul li{
-        font-size: 1rem;
-    }
     .logo-container{
         width: 200px;
     }

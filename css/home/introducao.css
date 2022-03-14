@@ -25,8 +25,8 @@
 }
 .introducao-content p{
     color: var(--text-color2);
-    font-size: 1.5rem;
 }
+
 .introducao-content a{
     max-width: 16ch;
 }
@@ -38,19 +38,10 @@
     .introducao-content{
         margin-bottom: 200px;
     }
-    .introducao-content h1{
-        font-size: 3.5rem;
-    }
 }
 @media (max-width:1000px){
     .introducao-content{
         margin-bottom: 100px;
-    }
-    .introducao-content h1{
-        font-size: 2.5rem;
-    }
-    .introducao-content p{
-        font-size: 1.5rem;
     }
 }
 @media (max-width:800px){
@@ -64,13 +55,5 @@
     }
     .introducao-content{
         margin: 0;
-    }
-}
-@media (max-width:400px){
-    .introducao-content h1{
-        font-size: 2rem;
-    }
-    .introducao-content p, .introducao-content a{
-        font-size: 1rem;
     }
 }
