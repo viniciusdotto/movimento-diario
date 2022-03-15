@@ -1,0 +1,41 @@
+.metodologia-background{
+    background-color: var(--background-color5);
+    color: var(--text-color1);
+    box-shadow: inset 0 -80px #ffffff;
+    padding-bottom: 30px;
+}
+.metodologia{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+.metodologia-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.metodologia-content span, .metodologia-content p{
+    color: var(--text-color2);
+}
+.metodologia-content h2 span{
+    color: var(--detail-color1);
+}
+.metodologia-img img{
+    justify-self: center;
+}
+@media (max-width:800px){
+    .metodologia-background{
+        box-shadow: inset 0 -80px #ffffff;
+    }
+    .metodologia{
+        grid-template-columns: 1fr;
+    }
+    .metodologia-content{
+        margin-bottom: 0;
+        width: auto;
+    }
+}

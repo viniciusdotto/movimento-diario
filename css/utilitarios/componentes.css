@@ -4,14 +4,27 @@
     padding: 20px 40px;
     margin: 0 auto;
 }
+@media(max-width: 800px){
+    .container{
+        padding: 10px;
+    }
+}
 .botao{
     background-color: var(--detail-color1);
+    display: inline-block;
     padding: 15px 30px;
     text-align: center;
     border-radius: 10px;
     color: var(--text-color2);
     text-transform: uppercase;
+    justify-self: left;
+    max-width: 60%;
 }
 .botao:hover{
     background-color: var(--detail-color2);
+}
+@media(max-width:800px){
+    .botao{
+        padding: 10px 20px;
+    }
 }

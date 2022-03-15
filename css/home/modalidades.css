@@ -1,5 +1,6 @@
 .modalidades-background{
     background-color: var(--background-color4);
+    padding-bottom: 30px;
 }
 .modalidades-container{
     max-width: 1600px;
