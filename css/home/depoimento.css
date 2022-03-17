@@ -1,0 +1,47 @@
+.depoimento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--detail-color1);
+}
+.depoimento-img img{
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.depoimento-content{
+    padding: 40px 40px 80px 80px;
+    align-self: end;
+    color: var(--text-color1);
+}
+.depoimento-content span{
+    margin-top: 20px;
+    color: var(--text-color2);
+}
+.depoimento-content p{
+    position: relative;
+    max-width: 32ch;
+}
+.depoimento-content p::after{
+    content: "”";
+    position: absolute;
+    font-size: 5rem;
+    color: var(--detail-color3);
+}
+.depoimento-content p::before{
+    content: "“";
+    position: absolute;
+    left: -40px;
+    font-size: 5rem;
+    color: var(--detail-color3);
+}
+@media (max-width: 800px){
+    .depoimento{
+        grid-template-columns: 1fr;
+    }
+    .depoimento-content{
+        padding: 20px 40px;
+        justify-self: center;
+        text-align: center;
+    }
+}

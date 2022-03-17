@@ -58,10 +58,16 @@
     .font1-xxl, .font2-xxl{
         font-size: 3.5rem;
     }
+    .font1-xl, .font2-xl{
+        font-size: 3rem;
+    }
 }
 @media (max-width:1000px){
     .font1-xxl, .font2-xxl{
         font-size: 2.5rem;
+    }
+    .font1-xl, .font2-xl{
+        font-size: 2rem;
     }
     .font1-n, .font2-n{
         font-size: 1.5rem;
@@ -70,6 +76,9 @@
 @media (max-width:800px){
     .font1-s, .font2-s{
         font-size: 1.25rem;
+    }
+    .font1-xl, .font2-xl{
+        font-size: 1.5rem;
     }
 }
 @media (max-width:600px){
