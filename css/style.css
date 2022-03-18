@@ -12,3 +12,5 @@
 @import 'home/metodologia.css';
 @import 'home/localizacao.css';
 @import 'home/depoimento.css';
+/* Termos */
+@import 'termos/termos.css';

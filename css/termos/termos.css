@@ -1,0 +1,10 @@
+.termos-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.termos h2{
+    margin-bottom: 40px;
+}
+.termos p + h2{
+    margin-top: 60px;
+}

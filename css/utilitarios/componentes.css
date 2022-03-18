@@ -28,3 +28,17 @@
         padding: 10px 20px;
     }
 }
+
+.titulo-interno{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-color5);
+    color: var(--text-color1);
+}
+.titulo-interno p{
+    margin-bottom: 5px;
+    color: var(--text-color2);
+}
+.titulo-interno h1 span{
+    color: var(--detail-color1);
+}
