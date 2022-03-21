@@ -41,3 +41,8 @@
 .titulo-interno h1 span{
     color: var(--detail-color1);
 }
+@media(max-width:800px){
+    .titulo-interno{
+        padding: 30px 15px;
+    }
+}

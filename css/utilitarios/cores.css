@@ -25,3 +25,12 @@
 .cor4{
     color: var(--text-color4);
 }
+.cor-d1{
+    color: var(--detail-color1);
+}
+.cor-d2{
+    color: var(--detail-color2);
+}
+.cor-d3{
+    color: var(--detail-color3);
+}
