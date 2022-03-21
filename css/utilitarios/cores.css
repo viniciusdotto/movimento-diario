@@ -12,3 +12,16 @@
     --text-color3: #000000;
     --text-color4: #4e4e4e;
 }
+
+.cor1{
+    color: var(--text-color1);
+}
+.cor2{
+    color: var(--text-color2);
+}
+.cor3{
+    color: var(--text-color3);
+}
+.cor4{
+    color: var(--text-color4);
+}
