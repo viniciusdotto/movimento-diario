@@ -16,6 +16,8 @@
 @import 'termos/termos.css';
 /* Estrutura */
 @import 'estrutura/estrutura.css';
+/* Estrutura Calistenia */
+@import '../estrutura/css/calistenia.css';
 /* Planos */
 @import 'planos/planos.css';
 @import 'planos/perguntas.css';

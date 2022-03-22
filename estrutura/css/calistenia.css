@@ -1,0 +1,61 @@
+.calistenia-bg{
+    background-color: var(--background-color5);
+}
+.calistenia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.calistenia-img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.calistenia-img-container div:first-child{
+    grid-column: 1 / span 2;
+}
+.calistenia-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calistenia-content ul{
+    background-color: var(--background-color1);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.calistenia-content ul li{
+    padding: 20px;
+}
+.calistenia-content ul li h3{
+    position: relative;
+}
+.calistenia-content ul li h3:before{
+    content: ">";
+    padding-right: 10px;
+    position: absolute;
+    left: -20px;
+}
+
+@media (max-width: 1200px){
+    .calistenia-img-container{
+        grid-template-columns: 1fr;
+    }
+    .calistenia-img-container div:first-child{
+        grid-column: 1;
+    }
+}
+@media (max-width: 600px){
+    .calistenia{
+        grid-template-columns: 1fr;
+    }
+    .calistenia-img-container{
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+    }
+    .calistenia-img-container div:first-child{
+        grid-column: 1 / span 2;
+    }
+}
