@@ -22,3 +22,7 @@
 /* Planos */
 @import 'planos/planos.css';
 @import 'planos/perguntas.css';
+/* Contato */
+@import './contato/contato.css';
+@import './contato/form.css'
+

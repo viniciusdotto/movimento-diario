@@ -20,3 +20,6 @@ img{
     border-radius: 10px;
     display: block;
 }
+address{
+    font-style: normal;
+}

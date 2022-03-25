@@ -1,0 +1,36 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form label{
+    display: block;
+    padding-bottom: 10px;
+}
+.form input, .form textarea{
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form .col2{
+    grid-column: span 2;
+}
+
+.form input:focus, .form textarea:focus{
+    outline: none;
+    border-color: var(--detail-color1);
+    background-color: var(--background-color6);
+}
+.form .botao{
+    justify-self: end;
+}
+
+@media (max-width: 800px){
+    .form .col2{
+        grid-column: 1;
+    }
+    .form{
+        grid-template-columns: 1fr;
+    }
+}
