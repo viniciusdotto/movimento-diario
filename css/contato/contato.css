@@ -1,5 +1,5 @@
 #contato{
-    background: linear-gradient(var(--background-color5) 850px, var(--background-color6) 0%)
+    background: linear-gradient(var(--background-color5) 850px, var(--background-color4) 0%)
 }
 .meios{
     display: grid;
@@ -27,7 +27,7 @@
 
 .contato-form{
     padding: 20px;
-    background-color: var(--background-color4);
+    background-color: var(--background-color6);
     border-radius: 0 10px 10px 0;
 }
 
