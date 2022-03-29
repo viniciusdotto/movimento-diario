@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 5fr 7fr;
     padding: 20px;
-    margin-bottom: 60px
+    margin-bottom: 60px;
 }
 
 .assine-plano{
@@ -121,4 +121,21 @@
     margin-top: 60px;
     width: max-content;
     justify-self: end;
+}
+
+@media (max-width: 800px){
+    .assine{
+        grid-template-columns: 1fr;
+    }
+    .assine-plano,
+    .assine-dados-pessoais{
+        padding: 10px;
+    }
+    .assine-plano{
+        border-radius: 10px 10px 0 0;
+        padding-bottom: 30px;
+    }
+    .assine-dados-pessoais{
+        border-radius: 0 0 10px 10px;
+    }
 }
