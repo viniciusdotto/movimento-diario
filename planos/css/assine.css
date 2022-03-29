@@ -20,6 +20,7 @@
 .assine-plano h2,
 .assine-dados-pessoais h2{
     margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 .assine-plano h2::before,
@@ -112,9 +113,20 @@
     display: grid;
     gap: 10px;
 }
+.assine-dados-pessoais label{
+    display: block;
+    margin-top: 20px;
+}
 
 .assine-dados-pessoais input{
-    width: 100%;
+    padding: 10px 15px;
+}
+
+.assine-dados-pessoais input:focus{
+    outline: none;
+    border-color: var(--detail-color1);
+    background-color: var(--background-color5);
+    color: var(--text-color2);
 }
 
 .assine-dados-pessoais .botao{
@@ -122,6 +134,8 @@
     width: max-content;
     justify-self: end;
 }
+
+
 
 @media (max-width: 800px){
     .assine{

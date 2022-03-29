@@ -82,6 +82,9 @@
     }
 }
 @media (max-width:600px){
+    .font1-xs, .font2xs{
+        font-size: 0.75rem;
+    }
     .font1-s, .font2-s{
         font-size: 1rem;
     }
@@ -90,7 +93,13 @@
     .font1-xxl, .font2-xxl{
         font-size: 2rem;
     }
-    .font1-n, .font2-n, .font1-s, .font2-s{
+    .font1-n, .font2-n{
         font-size: 1rem;
+    }
+    .font1-xs, .font2xs{
+        font-size: 0.5rem;
+    }
+    .font1-s, .font2-s{
+        font-size: 0.75rem;
     }
 }
