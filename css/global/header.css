@@ -23,12 +23,12 @@ nav ul{
     justify-content: center;
     gap: 20px;
 }
-nav ul li{
+nav ul li a{
     position: relative;
     text-transform: uppercase;
     display: inline-block;
 }
-nav ul li::after{
+nav ul li a::after{
     content: "";
     position: absolute;
     display: inline-block;
@@ -38,7 +38,8 @@ nav ul li::after{
     left: 0;
     background-color: var(--background-color1);
 }
-nav ul li:hover::after{
+nav ul li a:hover::after,
+.atual::after{
     content: "";
     position: absolute;
     display: inline-block;
