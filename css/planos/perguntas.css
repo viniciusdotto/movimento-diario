@@ -42,10 +42,10 @@
     transition: 0.3s;
 }
 
-.perguntas div dd{
+.js .perguntas div dd{
     display: none;
 }
-.perguntas div dd.pergunta-ativa{
+.js .perguntas div dd.pergunta-ativa{
     display: block;
 }
 .perguntas div dd{
