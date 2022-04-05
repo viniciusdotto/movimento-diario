@@ -33,7 +33,6 @@ function ativarPergunta(event){
     resposta.classList.toggle("pergunta-ativa");
 
     const ativa = resposta.classList.contains("pergunta-ativa");
-    console.log(ativa);
     pergunta.setAttribute('aria-expanded', ativa);
 }
 
@@ -42,3 +41,18 @@ function cliquePergunta(element){
 }
 
 perguntas.forEach(cliquePergunta);
+
+// Galeria de imagens
+const imagem = document.querySelectorAll('.calistenia-img-container div');
+const galeria = document.querySelector('.calistenia-img-container');
+
+function trocarImagem(event){
+    img = event.currentTarget;
+    galeria.prepend(img);
+}
+
+function cliqueImagem(item){
+    item.addEventListener('click', trocarImagem);
+}
+
+imagem.forEach(cliqueImagem);
